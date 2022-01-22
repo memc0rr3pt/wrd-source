@@ -1,0 +1,177 @@
+@import 'https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,300&display=swap';
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column
+}
+
+main {
+    width: 100%;
+    flex: 1
+}
+
+div,
+h1,
+h2,
+h3,
+h4,
+p,
+a,
+li,
+tr,
+td,
+textarea,
+button,
+input,
+select,
+span {
+    font-weight: 300;
+    font-family: roboto, Roboto, Arial, sans-serif;
+    color: inherit
+}
+
+h1,
+h2 {
+    font-size: 1.5em
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-weight: 400
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit
+}
+
+select,
+input {
+    font-size: 16px
+}
+
+strong {
+    font-weight: 700
+}
+
+::-webkit-scrollbar {
+    width: 9px
+}
+
+::-webkit-scrollbar-track {
+    background-color: #7f8c8d;
+    background-color: rgba(128, 128, 128, .3);
+    border-radius: 4px
+}
+
+::-webkit-scrollbar-thumb {
+    background: #95a5a6;
+    background-color: rgba(128, 128, 128, .4);
+    border-radius: 4px
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #bdc3c7;
+    background-color: rgba(128, 128, 128, .5)
+}
+
+div[role=application] {
+    margin-top: var(--padding);
+    border: 0
+}
+
+.tox-textarea {
+    font-family: Consolas, Monaco, andale mono, ubuntu mono, monospace !important
+}
+
+.tox-statusbar__branding {
+    display: none !important
+}
+
+:root {
+    --padding: 12px;
+    --font-size: 16px;
+    --padding: 12px;
+    --less-padding: 9px;
+    --round: 16px;
+    --less-round: 9px
+}
+
+.button {
+    display: block;
+    padding: 8px 18px;
+    font-weight: 300;
+    font-size: var(--font-size);
+    border-radius: var(--round);
+    cursor: pointer
+}
+
+.lessRound {
+    border-radius: var(--less-round)
+}
+
+.round {
+    border-radius: var(--round)
+}
+
+.shadow1 {
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, .3)
+}
+
+.screenPadding {
+    padding: 12px
+}
+
+.padding {
+    padding: var(--padding)
+}
+
+.less-padding {
+    padding: var(--less-padding)
+}
+
+.padding-sides {
+    padding: 0 var(--padding)
+}
+
+.bold {
+    font-weight: 400
+}
+
+.textCenter {
+    text-align: center
+}
+
+.wordbreakall {
+    word-break: break-all
+}
+
+.verticalCenter {
+    display: inline-flex;
+    align-items: center
+}
+
+.gapchildren>* {
+    margin-bottom: var(--padding)
+}
+
+.lessgapchildren>* {
+    margin-bottom: var(--less-padding)
+}
+
+.gapchildren>*:nth-last-child(1),
+.lessgapchildren>*:nth-last-child(1) {
+    margin-bottom: 0
+}
+
+.red {
+    color: red
+}

@@ -1,0 +1,47 @@
+body {
+    background-color: #2f3136;
+    color: #ecf0f1
+}
+
+#navigationbar {
+    background: -webkit-linear-gradient(left, #181919, #282828);
+    background: -o-linear-gradient(left, #181919, #282828);
+    background: -webkit-gradient(linear, left top, right top, from(#181919), to(#282828));
+    background: linear-gradient(90deg, #181919, #282828)
+}
+
+.theme1 {
+    background-color: #232527
+}
+
+.theme2 {
+    background-color: #181919
+}
+
+.border1 {
+    border: 1px solid #181919
+}
+
+.border1-left {
+    border-left: 1px solid #181919
+}
+
+.border1-bottom {
+    border-bottom: 1px solid #181919
+}
+
+.tox-toolbar__primary,
+.tox-statusbar,
+.tox-menu,
+.tox-dialog,
+.tox-dialog__header,
+.tox-selectfield select,
+.tox-textarea,
+.tox-dialog__footer {
+    background-color: #232527 !important
+}
+
+code[class*=language-],
+pre[class*=language-] {
+    background-color: #181919
+}
